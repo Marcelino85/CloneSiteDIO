@@ -16,8 +16,13 @@ export const ButtonContainer = styled.button`
 
     background:#E41050;
 
-      &::afiter{
-        content: '',
+    &:hover{
+      opacity:0.6;
+      cursor:pointer;
+    }
+
+      &::after{
+        content: '';
         position:absolute;
         border:1px solid #e41050;
         top:-5px;
