@@ -28,7 +28,8 @@ const Header = () => {
 
             </Row>
             <Row>
-                <MenuRight href="#">Home</MenuRight>
+                <MenuRight href="/">Home</MenuRight>
+                <MenuRight href="/login">Login</MenuRight>
                 <Button title="Entrar" />
                 <Button title="Cadastrar" />
             </Row>
