@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 import { Container, NameText, Progress, UserPicture } from './styles'
 
-const UserInfo = ({nome,image,percentual}) => {
+const UserInfo = ({nome, image, percentual}) => {
   console.log('percentual:', percentual);
   return (
     <Container>
@@ -16,4 +16,4 @@ const UserInfo = ({nome,image,percentual}) => {
   )
 }
 
-export{ UserInfo }  
+export{ UserInfo };  

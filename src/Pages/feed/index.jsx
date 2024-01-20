@@ -1,20 +1,19 @@
-import { Link } from 'react-router-dom'
-import bannerImagem from '../../assets/banner.png'
-import { Button } from '../../components/Button'
+
 import { Card } from '../../components/Cards'
 import { UserInfo } from '../../components/UserInfo'
 import { Header } from '../../components/Header'
-import { Container, column ,Title, TitleHighlight, Column } from './styles'
+import { Container, Column ,Title, TitleHighlight } from './styles'
 
 const Feed = () => {
     return(
         <>
-        <Header />
+        <Header autenticado={true}/>
        
         <Container>
             <Column flex={3}>
+              <Title>Feed</Title>
                 <Card />
-                
+                               
             </Column>
 
             <Column flex={1}>
@@ -24,8 +23,7 @@ const Feed = () => {
             image="https://avatars.githubusercontent.com/u/106674529?v=4"
             percentual={40}
           />
-                          
-               
+                      
             </Column>
             
         </Container>
