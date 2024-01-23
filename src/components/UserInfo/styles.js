@@ -31,15 +31,16 @@ export const Progress = styled.div`
     position: relative;
     
     &::after {
-        content: '';
+        content:'';
         position: absolute;
         top: 0;
-        left: 0
+        left: 0;
         width: ${({percentual}) => percentual}%;
         height: 6px;
         border-radius: 3px;
         background-color: #23DD7A;
-        border: 1px solid red; 
+       
+        
         // esta exibindo a boorda mas não o carregamento
     }
 `

@@ -1,8 +1,8 @@
 
-import { Card } from '../../components/Cards'
+import { Card } from '../../components/Cards';
 import { UserInfo } from '../../components/UserInfo'
-import { Header } from '../../components/Header'
-import { Container, Column ,Title, TitleHighlight } from './styles'
+import { Header } from '../../components/Header';
+import { Container, Column ,Title, TitleHighlight } from './styles';
 
 const Feed = () => {
     return(
@@ -13,16 +13,19 @@ const Feed = () => {
             <Column flex={3}>
               <Title>Feed</Title>
                 <Card />
+                <Card />
+                <Card />
+                
                                
             </Column>
 
             <Column flex={1}>
-            <TitleHighlight># TOP 5 DA SEMANA</TitleHighlight>
-          <UserInfo
-            nome="Marcelino Albuquerque"
-            image="https://avatars.githubusercontent.com/u/106674529?v=4"
-            percentual={40}
-          />
+              <TitleHighlight># TOP 5 DA SEMANA</TitleHighlight>
+              <UserInfo
+                nome="Marcelino Albuquerque"
+                image="https://avatars.githubusercontent.com/u/106674529?v=4"
+                percentual={100}
+              />
                       
             </Column>
             

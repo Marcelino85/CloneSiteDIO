@@ -1,15 +1,15 @@
 import React from 'react';
 
-import { Container, NameText, Progress, UserPicture } from './styles'
+import { Container, NameText, Progress, UserPicture } from './styles';
 
 const UserInfo = ({nome, image, percentual}) => {
   console.log('percentual:', percentual);
   return (
     <Container>
-        <UserPicture src={image} />
+        <UserPicture src={image}/>
         <div>
             <NameText>{nome}</NameText>
-            <Progress percentual={percentual} />
+            <Progress percentual={percentual}/>
         </div>
 
     </Container>
