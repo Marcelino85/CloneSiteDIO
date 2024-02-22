@@ -5,8 +5,7 @@ export const InputContainer = styled.div`
     max-width:295px;
     height:30px;
     border-botton:1px solid #3b3450;
-    
-
+      
     display:flex;
     align-items:center;
     justify-content:center;
@@ -24,7 +23,8 @@ export const InputText = styled.input`
     background-color:transparent;
     color:#FFFFFF;
     width:100%;
-    border: 0;
+    border:0;
     height:30px;
     padding:5px;
+    font-size:1rem;
 `

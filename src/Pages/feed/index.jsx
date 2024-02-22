@@ -24,7 +24,7 @@ const Feed = () => {
               <UserInfo
                 nome="Marcelino Albuquerque"
                 image="https://avatars.githubusercontent.com/u/106674529?v=4"
-                percentual={100}
+                percentual={90}
               />
                       
             </Column>
