@@ -17,6 +17,8 @@ export const Container = styled.main`
 export const Wrappar = styled.div`
     max-width:300px
 `
+
+
 export const Column = styled.div`
     flex:1;
 `
