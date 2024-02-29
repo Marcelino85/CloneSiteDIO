@@ -22,4 +22,4 @@ Esta é a aplicação DIO, uma aplicação de exemplo desenvolvida utilizando di
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/dio.git
+git clone [https://github.com/Marcelino85/dio.git](https://github.com/Marcelino85/CloneSiteDIO)
