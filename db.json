@@ -1,7 +1,6 @@
 {
-    "users": [
-      { "id": "1", "name": "Marcelino", "email":"marc@gmail.com", "senha": "123456"},
-      { "id": "2", "name": "Fabiana",   "email":"fabi@gmail.com", "senha": "654321"}
-    ]
- 
+  "users": [
+    { "id": "1", "name": "Marcelino", "email":"marc@gmail.com", "senha": "123456"},
+    { "id": "2", "name": "Fabiana",   "email":"fabi@gmail.com", "senha": "654321"}
+  ]
 }
