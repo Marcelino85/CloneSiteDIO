@@ -1,6 +1,6 @@
 # Aplicação DIO
 
-Esta é a aplicação DIO, uma aplicação de exemplo desenvolvida utilizando diversas tecnologias modernas. Esta aplicação permite [inserir uma breve descrição do que a aplicação faz].
+Esta é a aplicação DIO, uma aplicação de exemplo desenvolvida utilizando diversas tecnologias modernas. Esta aplicação permite o usuario se cadastrar, logar e acessar a pagina inicial do site.
 
 ## Tecnologias Utilizadas
 
